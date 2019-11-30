@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:gravity="center"
-        android:hint="Nome do Usuário"
+        android:hint="@string/nome_usuario"
         android:inputType="textPersonName"
         android:text="" />
 
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:gravity="center"
-        android:hint="Senha"
+        android:hint="@string/senha"
         android:inputType="textPassword"
         android:text="" />
 
@@ -33,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30sp"
-        android:text="Login"
+        android:text="@string/login"
         android:onClick="realizaLogin"
         />
 
